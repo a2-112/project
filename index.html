@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Judy's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="main-con">
+        <div class="intro">
+            <header>
+                <h2 >Judy.</h2>
+                <div class="toggle-button" id="toggleButton"> &#9776; <!-- Hamburger menu icon -->
+                </div>
+                <nav class="nav-bar" id="navBar">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#skill">My Skills</a></li>
+                        <li><a href="#port">Portfolio</a></li>
+                        <li><a href="#contact">Contact us</a></li>
+                    </ul>
+                </nav>
+
+            </header>
+            <div class="mySelf" id="home">
+                <h3 class="typing">
+                    I'm Judith <br> <br>
+                    Eziefule.
+                    <hr>
+                </h3>
+                <article>
+                    <h4>A Web Developer </h4>
+                    <p>I am currently a graduate and a beginner in Frontend Development,
+                        living in Nigeria. I started out 8months ago through self training, watching
+                        youtube videos and learn through coding app. Just completed a 30days code
+                        challenge and have acquired lot of experiences and am happy with my accomplishment.
+                    </p>
+                    <h4>Other skills</h4>
+                    <p>I do basic Graphics Designs and am a Fashion designer</p>
+                </article>
+            </div>
+        </div>
+        <main>
+            <section id="service" class="sect-one">
+                <h4>My Offers</h4>
+                <p>I create amazing, static and responsive website, Graphic designs with
+                    coreldraw and make fashionable wears that are comfy and unique.
+                </p>
+                <div class="grid-service">
+                    <div class="grid-serve">
+                        <img src="image/web-removebg-preview.png" alt="" srcset="">
+                        <div class="overlay-text">Web Development</div>
+                    </div>
+                    <div class="grid-serve">
+                        <img src="image/corel-removebg-preview.png" alt="" srcset="">
+                        <div class="overlay-text">CorelDraw</div>
+                    </div>
+                    <div class="grid-serve">
+                        <img src="image/machine-removebg-preview.png" alt="">
+                        <div class="overlay-text">Fashion</div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skill" class="sect-two">
+                <h5>My Skills</h5>
+                <p>I make excellent website and design using Tech languages.</p>
+                <div class="language">
+                    <div class="grid-lang">
+                        <img src="image/html-removebg-preview.png" alt="" srcset="">
+                        <div class="overlay-text">HTML</div>
+                    </div>
+                    <div class="grid-lang">
+                        <img src="image/css-removebg-preview.png" alt="" srcset="">
+                        <div class="overlay-text">CSS</div>
+                    </div>
+                    <div class="grid-lang">
+                        <img src="image/js.webp" alt="">
+                        <div class="overlay-text">Javascript</div>
+                    </div>
+                    <div class="grid-lang">
+                        <img src="image/react-removebg-preview.png" alt="">
+                        <div class="overlay-text">React</div>
+                    </div>
+                </div>
+            </section>
+            <section class="sect-three" id="#port">
+                <h4>Latest Work</h4>
+                <p>This are few of my 30daycode challenge works, a simple
+                    calculator, a grid image, task scheduler, card etc. it was really
+                    an amazing experiences and i improved alot.
+                </p>
+                <div class="works">
+                    <div class="work-item work-item-row work-item-cols"><img src="/image/20241123_102909.jpg" alt="">
+                    </div>
+                    <div class="work-item"><img src="/image/20241119_231507.jpg" alt=""></div>
+                    <div class="work-item "><img src="/image/20241117_211716.jpg" alt=""></div>
+                    <div class="work-item "><img src="/image/20240724_180620.jpg" alt=""></div>
+                    <div class="work-item "><img src="/image/prof 1.jpg" alt=""></div>
+                    <div class="work-item "><img src="/image/exhi.jpg" alt=""></div>
+                    <div class="work-item work-item-cols last"><img src="/image/20241121_161101.jpg" alt=""></div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div id="#contact" class="foot">
+                <h3>Contact us</h3>
+                <div class="contact">
+                     <div class="social-icons">
+                        <h4>Our Socials</h4>
+                    <ul>
+                      <i class="fab fa-github"></i>  <li>  https://github.com/a2-112</li>
+                     <i class="fab fa-facebook"></i>   <li>  www.facebook.com/judith.eziefule</li>
+                      <i class="fab fa-twitter"></i>  <li> @JEziefule28005</li>
+                      <i class="fab fa-instagram"></i>  <li>www.instagram.com/judith.eziefule</li>
+                      <i class="fab fa-telegram"></i>  <li>@Ju1am</li>
+                      <i class="fab fa-whatsapp"></i>  <li>09075982192, 07049789122</li>
+                      <i class="fab fa-linkedin"></i>  <li>Eziefule Judith</li>
+                       <i class="fas fa-envelope"></i> <li>juditheziefule1@gmail.com</li>
+                    </ul>
+                    <hr id="style">
+                </div>
+               <form action="">
+                <h4>You want to say something to us</h4>
+                <label for="name">Name</label>
+                <input type="text"  id="userInput" placeholder="Your name please">
+                <label for="email">Email</label>
+                <input type="text" id="userInput" placeholder="Your email please">
+                <label for="message">Message</label>
+                <textarea  id="userInput" placeholder="Would you like to say hi to us" rows="8" cols="40">
+                </textarea>
+                <div id="message"></div>
+               </form>
+                </div>
+                <div  class="btncn">
+                      <button id="submitInput">Contact us</button>
+                </div>
+              
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
